@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+    }
+
+    .head {
+        background-color: rgba(0, 0, 255, 0.68);
+        height: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    .body {
+        display: flex;
+        width: 100vw;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .sidebar {
+        background-color: rgba(0, 128, 0, 0.607);
+        width: 28%;
+        height: 350px;
+        display: flex;
+        padding: 10px;
+
+
+    }
+
+    .Content {
+        background-color: rgba(255, 0, 0, 0.653);
+        width: 67%;
+        height: 350px;
+        display: flex;
+        padding: 10px;
+
+
+    }
+
+    .foot {
+        background-color: rgba(128, 0, 128, 0.676);
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-top: 10px;
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <div class="head">
+        <p>Header</p>
+    </div>
+    <div class="body">
+        <div class="sidebar">
+            <p>Sidebar</p>
+        </div>
+        <div class="Content">
+            <p>Content</p>
+        </div>
+    </div>
+    <div class="foot">
+        <p>Footer</p>
+    </div>
+</body>
+
+</html>
